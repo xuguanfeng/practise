@@ -1,0 +1,50 @@
+{
+  "addNewCtgCd": "0",
+  "areNewCtgCd": "1",
+  "asdNewCtgCd": "1",
+  "cd": "2031101B",
+  "fNm": "シュローダーＤＣアクティブ日本株式",
+  "lstRtrn120M": -9.8628,
+  "lstRtrn12M": -4.3318,
+  "lstRtrn1M": 1.3824,
+  "lstRtrn24M": -1.3286,
+  "lstRtrn36M": 11.8025,
+  "lstRtrn48M": 77.8678,
+  "lstRtrn60M": 82.6599,
+  "lstRtrn6M": -1.3535,
+  "lstRtrnBsDt": "201609",
+  "lstRtrnSi": 16.6109,
+  "lstRtrnSiDt": "201609",
+  "nNm": "ＤＣアクティブ日本株式",
+  "nm": "",
+  "prc": 12274.0,
+  "prcChg": -1.0,
+  "prmPrc": null,
+  "prmPrcChg": null,
+  "prmPrcDt": null,
+  "redFlg": "0",
+  "sepNewCtgCd": "0",
+  "slsCmp": [
+    {
+      "cd": "0005",
+      "nm": "三菱東京ＵＦＪ銀行"
+    },
+    {
+      "cd": "0169",
+      "nm": "広島銀行"
+    },
+    {
+      "cd": "0294",
+      "nm": "三井住友信託銀行"
+    }
+  ],
+  "trdDt": "20161031",
+  "unaNewCtgCd": "2",
+  "userData": [
+    {
+      "disp": false,
+      "name": null,
+      "value": null
+    }
+  ]
+}

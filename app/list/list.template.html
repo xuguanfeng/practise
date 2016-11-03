@@ -1,0 +1,163 @@
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"-->
+<!--"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<!-- saved from url=(0037)http://www.tdasset.co.jp/fund/prices/ -->
+<!--<html>-->
+<!--<head>-->
+<!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+
+<!--<meta name="author" content="T&amp;Dアセットマネジメント">-->
+<!--<meta name="description"-->
+<!--content="T&amp;Dアセットマネジメントは、自社運用力の一層の向上や海外の優良な運用機関との業務提携を通じ、投資家ニーズに対応した競争力のある運用商品・サービスをタイムリーに開発・提供しています。">-->
+<!--<meta name="keywords"-->
+<!--content="T&amp;D保険グループ,ファンド,投資信託,国内株式型,グローバル株式型,国内債券型,グローバル債券型,バランス型,ブル・ベア型,インデックス型,MMF,確定拠出年金">-->
+<!--<title>ファンド情報 : 基準価額一覧 - T&amp;Dアセットマネジメント</title>-->
+
+
+<link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="./css/stylesheet(1).css">
+<link rel="stylesheet" type="text/css" href="./css/stylesheet(2).css">
+
+
+<!--<script type="text/javascript" src="./img/script.jsp"></script>-->
+<!--<script type="text/javascript" src="./img/script(1).jsp"></script>-->
+<!--<script type="text/javascript" src="./img/script(2).jsp"></script>-->
+<!--<script type="text/javascript" src="./img/script(3).jsp"></script>-->
+
+
+<!--<link rel="alternate" type="application/rss+xml" title="ファンド関連情報"-->
+<!--href="http://www.tdasset.co.jp/xml.jsp?id=39&amp;t=fund">-->
+<!--<link rel="alternate" type="application/rss+xml" title="T&amp;Dアセットマネジメントからのお知らせ"-->
+<!--href="http://www.tdasset.co.jp/xml.jsp?id=39">-->
+<!--</head>-->
+<!--<body class="bass-frametype-2col bajl-ua-isSafari bajl-ua-isWebkit bajl-ua-isWin bajl-enabled" id="tdam-tmpl-fund-02">-->
+
+
+<!-- [[[ HEADER-AREA ]]] -->
+<div id="header-area" class="bass-frame" ng-controller="listCtrl">
+    <div class="bass-frame-content">
+
+
+        <!-- [ SITE-IDENTITY ] -->
+        <h1><a id="site-identity" href="http://www.tdasset.co.jp/"><img height="25" width="276" alt="T&amp;Dアセットマネジメント"
+                                                                        src="./img/header_txt_001.png"></a><span
+                id="group-identity"><img height="49" width="75" title="T&amp;D保険グループ" alt="(T&amp;D保険グループ)"
+                                         src="./img/header_txt_002.png"></span>
+        </h1>
+        <!-- /[ SITE-IDENTITY ] -->
+
+
+        <!-- /bass-frame-content --></div>
+    <!-- /bass-frame --></div>
+<!-- /[[[ HEADER-AREA ]]] -->
+
+
+<!-- [[[ CONTENT-AREA ]]] -->
+<div class="bass-frame" id="content-area">
+    <div class="bass-frame-content">
+
+
+        <!-- [[ CONTENT-BODY ]] -->
+        <div class="bass-frame-content-column" id="content-body" style="min-height: 0px;">
+            <!-- ++++ content-body ++++ -->
+
+
+            <!-- [ TOPIC-PATH ] -->
+            <ol id="topic-path">
+                <li><a href="http://www.tdasset.co.jp/fund/">ファンド情報</a><span>&gt;</span></li>
+            </ol>
+            <!-- /[ TOPIC-PATH ] --> <!-- [ CONTENT-TITLE ] -->
+            <div class="bass-heading-A01" id="content-title"><h1>基準価額一覧</h1>
+                <!-- /bass-heading-A01 --></div>
+            <!-- /[ CONTENT-TITLE ] -->
+
+
+            <dl class="tdam-reference-date-A01">
+                <dt>基準日:</dt>
+                <dd class="bass-datetime">{{priceDate|dateFormat:"yyyy/MM/dd"}}</dd>
+            </dl>
+            <div>絞る: <input ng-model="filterName" type="text" placeholder="ファンドをフィルタ"></div>
+            <div class="bass-heading-B01" id="article-100">
+                <table class="bass-table-A01">
+                    <colgroup>
+                        <col>
+                        <col width="10%">
+                        <col width="10%">
+                        <col width="10%">
+                        <col width="10%">
+                        <col width="10%">
+                        <col width="10%">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th ng-click="col='fNm';desc = !desc;" class="bass-pseudo-first-child">ファンド名</th>
+                        <th ng-click="col='expressName';desc = !desc;"  class="bass-table-numcell">日本経済新聞<br>掲載名</th>
+                        <th ng-click="col='prc';desc = !desc;" class="bass-table-numcell">基準価額<br>(円)</th>
+                        <th ng-click="col='prcChg';desc = !desc;" class="bass-table-numcell bass-table-focuscell"><em>前日比(円)<br>(前日比率)</em></th>
+                        <th ng-click="col='lstRtrnSi';desc = !desc;" class="bass-table-numcell">純資産<br>(百万円)</th>
+                        <th ng-click="col='prfDist';desc = !desc;" class="bass-table-numcell">直近<br>分配金<br>(円)</th>
+                        <th ng-click="col='trdDt';desc = !desc;" class="bass-table-numcell">直近決算日</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr ng-repeat="fund in funds| filter:filterName | orderBy:col:desc" class="bass-pseudo-first-child">
+                        <th><a href="#!/detail/{{fund.cd}}" class="tdam-fund-name">{{fund.fNm}}</a>
+                            <span class="tdam-fund-petname"><dfn>愛称：</dfn>{{fund.nNm}}</span></th>
+                        <td>{{fund.expressName}}</td>
+                        <td class="bass-table-numcell">{{fund.prc}}</td>
+                        <td class="bass-table-numcell bass-table-focuscell bass-table-increase">
+                            <em>{{fund.prcChg}}<br>({{fund.prcChg / fund.prc}})</em></td>
+                        <td class="bass-table-numcell">{{fund.lstRtrnSi}}</td>
+                        <td class="bass-table-numcell">{{fund.prfDist}}</td>
+                        <td class="bass-pseudo-last-child">{{fund.trdDt}}</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+                <div class="bass-heading-B01" id="article-200">
+                    <address class="bass-copyright-A01">Copyright&nbsp;©&nbsp;Nomura&nbsp;Research&nbsp;Institute,Ltd.&nbsp;All&nbsp;Rights&nbsp;Reserved.</address>
+                    <div class="bass-appendix-B01">
+                        <div class="bass-text-A02"><p>分配金の履歴については、各ファンドページでご確認ください。</p>
+                            <!-- /bass-text-A02 --></div>
+                        <h2>ご留意いただきたい事項</h2>
+                        <ul class="bass-list-A02">
+                            <li>当サイトに掲載されている事項は、T&amp;Dアセットマネジメントにより情報提供を目的として作成されたものであり、金融商品取引法に基づく開示資料ではありません。</li>
+                            <li>当サイトは、特定の金融商品等の勧誘を目的とするものではありません。</li>
+                            <li>
+                                当サイトは、信頼できると判断した情報等に基づき作成しておりますが、その正確性、完全性を保証するものではありません。当サイト中の内容は作成基準時点のものであり、将来予告なく変更または廃止されることがあります。
+                            </li>
+                            <li>当サイト中における運用実績等は参考とする目的で過去の実績および結果を示したものであり、将来の成果を示唆・保証するものではありません。</li>
+                            <li>当社は、本サイトに含まれる情報から生じるいかなる責務（直接的、間接的を問わず）を負うものではありません。</li>
+                            <li>詳しくは各ファンドページをご覧ください。 <!-- /bass-list-A02 --></li>
+                        </ul>
+                        <!-- /bass-appendix-B01 -->
+
+                    </div>
+                    
+
+
+                    <!-- ++++ /content-body ++++ -->
+                    <!-- /bass-frame-content-column --></div>
+                <!-- /[[ CONTENT-BODY ]] -->
+
+
+                <!-- [[ PAGE-TOP LINK ]] -->
+
+
+                <!-- /bass-frame-content-column --></div>
+            <!-- /[[ PAGE-TOP LINK ]] -->
+
+
+            <!-- /bass-frame-content --></div>
+        <!-- /bass-frame --></div>
+    <!-- /[[[ CONTENT-AREA ]]] -->
+
+
+    <!-- [[[ FUND-INFO-AREA ]]] -->
+
+
+    <!-- /bass-frame --></div>
+<!-- /[[[ FUND-INFO-AREA ]]] -->
+
+<!--</body>-->
+<!--</html>-->

@@ -1,0 +1,654 @@
+@charset "UTF-8";
+#content-aside-btn-link, #content-aside-btn-link li, #content-aside-btn-link a, #content-aside-btn-link img {
+    display: block;
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%
+}
+
+#content-aside-btn-link {
+    margin-top: 17px;
+    margin-bottom: -2px;
+    padding-top: 15px;
+    border-top: 2px solid #c7c7c7
+}
+
+#content-aside-btn-link li {
+    margin-top: 2px;
+    padding: 0
+}
+
+#content-aside-btn-link li a {
+    position: relative;
+    width: 206px;
+    height: 32px;
+    margin: 0 -1px;
+    padding: 0 1px 2px;
+    background: url(/assets/img/aside_bg_001.png) no-repeat;
+    font-size: 117%;
+    font-weight: bold;
+    text-decoration: none;
+    _behavior: url(/assets/css/bajl.alphaImageLoader.htc);
+    _cursor: pointer
+}
+
+#content-aside-btn-link li a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #1464a2;
+    background-color: #9ddbfc
+}
+
+#content-aside-btn-link li a:hover img, #content-aside-btn-link li a:active img, #content-aside-btn-link li a:focus img {
+    background-color: #c5e9fd
+}
+
+#content-aside-btn-link li a:active {
+    top: 2px;
+    background-image: none
+}
+
+#content-aside-fund-search form.bass-searchfield-A01 {
+    width: 113px;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/assets/img/searchfield_bg_002.png)
+}
+
+#content-aside-fund-search form.bass-searchfield-A01 input.bass-formitem-image {
+    _right: -1px
+}
+
+#content-aside-fund-search ul.bass-notelist-A02, #content-aside-fund-exchangerate ul.bass-notelist-A02 {
+    width: 183px;
+    margin: 0.6em auto 0
+}
+
+#content-aside-fund-search ul.bass-notelist-A02 li span.bass-notelist-marker, #content-aside-fund-exchangerate ul.bass-notelist-A02 li span.bass-notelist-marker {
+    display: none
+}
+
+#content-aside-fund-types h3 {
+    padding-bottom: 0.5em !important;
+    border-bottom: 1px solid #e6e6e6
+}
+
+div.tdam-fund-profile-A01, div.tdam-fund-profile-A01 h1, div.tdam-fund-profile-A01 h2, div.tdam-fund-profile-A01 h3, div.tdam-fund-profile-A01 h4, div.tdam-fund-profile-A01 h5, div.tdam-fund-profile-A01 h6, div.tdam-fund-profile-A01 div.tdam-fund-profile-artwork, div.tdam-fund-profile-A01 ul.tdam-fund-profile-prop, div.tdam-fund-profile-A01 div.tdam-fund-profile-docs, div.tdam-fund-profile-A01 div.tdam-fund-profile-sales {
+    display: block;
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%
+}
+
+div.tdam-fund-profile-A01 {
+    clear: both;
+    margin-top: 1.25em;
+    border: 1px solid #e6e6e6;
+    background: white
+}
+
+div.tdam-fund-profile-A01 h1, div.tdam-fund-profile-A01 h2, div.tdam-fund-profile-A01 h3, div.tdam-fund-profile-A01 h4, div.tdam-fund-profile-A01 h5, div.tdam-fund-profile-A01 h6 {
+    float: left;
+    _display: inline;
+    width: 515px;
+    margin-right: -130px;
+    padding: 9px 130px 0 29px;
+    background: #e6e6e6;
+    font-size: 133%;
+    line-height: 1.38;
+    text-indent: -19px
+}
+
+div.tdam-fund-profile-A01 h1 a, div.tdam-fund-profile-A01 h2 a, div.tdam-fund-profile-A01 h3 a, div.tdam-fund-profile-A01 h4 a, div.tdam-fund-profile-A01 h5 a, div.tdam-fund-profile-A01 h6 a {
+    display: inline;
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%;
+    padding-left: 19px;
+    background: url(/assets/img/icon_007.png) 0 0 no-repeat;
+    text-decoration: none
+}
+
+div.tdam-fund-profile-A01 h1 a:hover, div.tdam-fund-profile-A01 h1 a:active, div.tdam-fund-profile-A01 h1 a:focus, div.tdam-fund-profile-A01 h2 a:hover, div.tdam-fund-profile-A01 h2 a:active, div.tdam-fund-profile-A01 h2 a:focus, div.tdam-fund-profile-A01 h3 a:hover, div.tdam-fund-profile-A01 h3 a:active, div.tdam-fund-profile-A01 h3 a:focus, div.tdam-fund-profile-A01 h4 a:hover, div.tdam-fund-profile-A01 h4 a:active, div.tdam-fund-profile-A01 h4 a:focus, div.tdam-fund-profile-A01 h5 a:hover, div.tdam-fund-profile-A01 h5 a:active, div.tdam-fund-profile-A01 h5 a:focus, div.tdam-fund-profile-A01 h6 a:hover, div.tdam-fund-profile-A01 h6 a:active, div.tdam-fund-profile-A01 h6 a:focus {
+    background-color: transparent;
+    background-position: -1000px 0;
+    text-decoration: underline
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-artwork {
+    position: relative;
+    z-index: 2;
+    float: right;
+    _display: inline;
+    overflow: hidden;
+    width: 83px;
+    height: 118px;
+    padding: 9px 24px 12px 23px;
+    text-align: center;
+    background: url(/fund/assets/img/fund-artwork_bg_001.png) no-repeat;
+    _behavior: url(/assets/css/bajl.alphaImageLoader.htc)
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-artwork img {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-size: 1px
+}
+
+div.tdam-fund-profile-A01 ul.tdam-fund-profile-prop {
+    clear: left;
+    padding: 0 10px 7px;
+    background: #e6e6e6;
+    font-size: 100%;
+    line-height: 1.42
+}
+
+div.tdam-fund-profile-A01 ul.tdam-fund-profile-prop li {
+    display: inline;
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%
+}
+
+div.tdam-fund-profile-A01 ul.tdam-fund-profile-prop li.tdam-fund-prop-label {
+    margin-right: 0.2em;
+    padding-right: 0.42em;
+    *margin-right: 0.5em;
+    *padding-right: 0.1em;
+    border-right: 1px solid #c7c7c7;
+    color: #013b74
+}
+
+div.tdam-fund-profile-A01 ul.tdam-fund-profile-prop li.tdam-fund-prop-label dfn {
+    font-weight: normal;
+    font-style: normal
+}
+
+div.tdam-fund-profile-A01 ul.tdam-fund-profile-prop li.tdam-fund-prop-type {
+    border-right: none;
+    color: #717171
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-docs {
+    margin-top: -1px;
+    padding: 0 10px 7px;
+    border-top: 1px solid #e6e6e6;
+    background: #f2f2f2
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-docs ul.bass-linklist-C03:after {
+    clear: left
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales {
+    padding: 9px 10px
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales h1, div.tdam-fund-profile-A01 div.tdam-fund-profile-sales h2, div.tdam-fund-profile-A01 div.tdam-fund-profile-sales h3, div.tdam-fund-profile-A01 div.tdam-fund-profile-sales h4, div.tdam-fund-profile-A01 div.tdam-fund-profile-sales h5, div.tdam-fund-profile-A01 div.tdam-fund-profile-sales h6 {
+    float: none;
+    display: inline;
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%;
+    margin-right: 0.5em;
+    color: #676767;
+    background: none;
+    font-weight: normal;
+    font-size: 100%;
+    line-height: 1.42
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list, div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li {
+    display: inline;
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%;
+    color: #676767;
+    font-size: 100%;
+    line-height: 1.42
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li {
+    margin-right: 0.2em
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li:after {
+    content: "\3001"
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li:last-child:after {
+    content: ""
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li a {
+    color: #6698c0;
+    background: none;
+    text-decoration: none
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li a:visited {
+    color: #82b5d9
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li a:hover, div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li a:active, div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li a:focus {
+    color: #538bb8;
+    text-decoration: underline
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales ul.tdam-fund-profile-sales-list li sup {
+    color: #aaaaaa;
+    vertical-align: baseline
+}
+
+div.tdam-fund-profile-A01 div.tdam-fund-profile-sales .bass-notelist-A02 {
+    margin-top: 0.4em;
+    font-size: 83%;
+    color: #aaaaaa
+}
+
+ul.tdam-fund-prop-A01, ul.tdam-fund-prop-A01 li {
+    display: block;
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%
+}
+
+ul.tdam-fund-prop-A01 {
+    margin-top: 1em;
+    font-size: 100%;
+    line-height: 1.1;
+    *zoom: 1
+}
+
+ul.tdam-fund-prop-A01:after {
+    clear: both;
+    display: block;
+    content: ""
+}
+
+ul.tdam-fund-prop-A01 li {
+    float: left;
+    _display: inline;
+    margin-right: 7px
+}
+
+ul.tdam-fund-prop-A01 li.tdam-fund-prop-label {
+    color: #013b74;
+    font-weight: bold
+}
+
+ul.tdam-fund-prop-A01 li.tdam-fund-prop-label dfn {
+    display: inline-block;
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%;
+    margin-right: 3px;
+    padding: 2px 7px 2px 4px;
+    *padding-top: 3px;
+    *padding-bottom: 1px;
+    border-left: 1px solid #95d8fc;
+    color: #717171;
+    background: transparent url(/fund/assets/img/fund-prop_bg_001.png) right center no-repeat;
+    font-weight: normal;
+    font-style: normal;
+    *vertical-align: middle
+}
+
+ul.tdam-fund-prop-A01 li.tdam-fund-prop-type {
+    color: #717171;
+    font-size: 100%;
+    line-height: 1.42
+}
+
+ul.tdam-fund-prop-A01 li.tdam-fund-prop-label + li.tdam-fund-prop-type {
+    margin-left: 5px;
+    padding-left: 12px;
+    border-left: 1px solid #717171
+}
+
+div.bass-heading-A01 ul.tdam-fund-prop-A01 {
+    margin-top: 6px;
+    margin-right: -3px
+}
+
+div.tdam-fund-feature-A01, div.tdam-fund-feature-A01 div.tdam-fund-feature-artwork, div.tdam-fund-feature-A01 div.tdam-fund-feature-description, div.tdam-fund-feature-A01 div.tdam-fund-feature-description h1, div.tdam-fund-feature-A01 h2, div.tdam-fund-feature-A01 h3, div.tdam-fund-feature-A01 h4, div.tdam-fund-feature-A01 h5, div.tdam-fund-feature-A01 h6 {
+    display: block;
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%
+}
+
+div.tdam-fund-feature-A01 {
+    margin: 1.42em -26px 0;
+    margin-top: 1.42em;
+    background: url(/fund/assets/img/fund-feature_bg_001.png) left top no-repeat;
+    _background: none
+}
+
+div.tdam-fund-feature-A01 div.tdam-fund-feature-artwork {
+    width: 155px;
+    height: 220px;
+    overflow: hidden;
+    padding: 10px 28px 20px 60px;
+    border-right: 1px solid #c7c7c7;
+    text-align: left;
+    _background: url(/fund/assets/img/fund-feature_bg_002.png) left top no-repeat;
+    _behavior: url(/assets/css/bajl.alphaImageLoader.htc)
+}
+
+div.tdam-fund-feature-A01 div.tdam-fund-feature-artwork img {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #c7c7c7;
+    border-bottom-color: #a9a9a9
+}
+
+div.tdam-fund-feature-A01 div.tdam-fund-feature-description {
+    width: 445px;
+    margin-left: -1px;
+    padding: 7px 0 7px 13px;
+    border-left: 1px solid #c7c7c7
+}
+
+div.tdam-fund-feature-A01 div.tdam-fund-feature-description h1, div.tdam-fund-feature-A01 div.tdam-fund-feature-description h2, div.tdam-fund-feature-A01 div.tdam-fund-feature-description h3, div.tdam-fund-feature-A01 div.tdam-fund-feature-description h4, div.tdam-fund-feature-A01 div.tdam-fund-feature-description h5, div.tdam-fund-feature-A01 div.tdam-fund-feature-description h6 {
+    font-size: 117%;
+    line-height: 1.43
+}
+
+div.tdam-fund-feature-A01 div.tdam-fund-feature-description ol.bass-orderedlist-A01 {
+    margin-left: -10px
+}
+
+div.tdam-fund-guidepost-A01 {
+    *zoom: 1
+}
+
+div.tdam-fund-guidepost-A01:after {
+    clear: both;
+    display: block;
+    content: ""
+}
+
+div.tdam-fund-guidepost-A01 dl {
+    float: left;
+    margin: 1.67em 17px 0 0;
+    padding: 0;
+    color: #013b74;
+    font-weight: bold;
+    font-size: 100%;
+    white-space: nowrap
+}
+
+div.tdam-fund-guidepost-A01 dl.tdam-fund-guidepost-clear-needed {
+    clear: left;
+    width: 100%;
+    margin-right: 0
+}
+
+div.tdam-fund-guidepost-A01 dl dt {
+    float: left;
+    margin: 0;
+    padding: 0 0 0 0.43em;
+    border-left: 2px solid #006cb8;
+    font-size: 117%;
+    line-height: 1.43
+}
+
+div.tdam-fund-guidepost-A01 dl dd {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.67
+}
+
+div.tdam-fund-guidepost-A01 dl dd + dd {
+    margin-left: 0.67em;
+    padding-left: 0.67em;
+    border-left: 1px solid #c7c7c7;
+    color: black;
+    font-weight: normal
+}
+
+div.tdam-fund-guidepost-A01 dl dd.dd\+ {
+    margin-left: 0.67em;
+    padding-left: 0.67em;
+    border-left: 1px solid #c7c7c7;
+    color: black;
+    font-weight: normal
+}
+
+div.tdam-fund-guidepost-A01 dl dd em {
+    float: left;
+    margin: -0.2em 0 0;
+    padding: 0 0.2em;
+    font-size: 200%;
+    line-height: 1
+}
+
+dl.tdam-reference-date-A01 {
+    margin: 3 0;
+    padding: 0;
+    color: #717171;
+    font-size: 117%;
+    line-height: 1.43;
+    text-align: right
+}
+
+dl.tdam-reference-date-A01 dt, dl.tdam-reference-date-A01 dd {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 100%
+}
+
+div.tdam-fund-searchfield-A01 {
+    display: block;
+    margin: 2.17em 0 0;
+    padding: 0;
+    font-size: 100%
+}
+
+div.tdam-fund-searchfield-A01 h2 {
+    margin: 0;
+    padding: 0 0 1.21em;
+    font-size: 117%;
+    line-height: 1.43;
+    text-align: center;
+    font-weight: bold;
+    background: url(/assets/img/line_001.png) left bottom repeat-x
+}
+
+div.tdam-fund-searchfield-A01 form {
+    margin: 19px auto
+}
+
+div.tdam-fund-searchfield-A01 div.bass-text-A01 {
+    margin-top: 0;
+    padding-top: 1.14em;
+    background: url(/assets/img/line_001.png) left top repeat-x;
+    text-align: center
+}
+
+div.tdam-fund-searchfield-A01 div.bass-text-A02 {
+    margin-top: 2.5em;
+    padding: 1.33em 19px 1.17em;
+    border: 1px solid #dbdbdb;
+    background: #f2f2f2
+}
+
+div.tdam-fund-searchfield-A01 div.bass-text-A01 p, div.tdam-fund-searchfield-A01 div.bass-text-A02 p {
+    margin-top: 0
+}
+
+#tdam-tmpl-fund-02 ul.bass-toclist-A01 {
+    margin-top: 30px
+}
+
+#tdam-tmpl-fund-detail ul.bass-toclist-A01 {
+    margin-top: 30px
+}
+
+#tdam-tmpl-fund-detail div.bass-heading-B01 h2 span.bass-datetime {
+    color: #717171;
+    font-size: 75%;
+    font-weight: normal
+}
+
+#tdam-tmpl-fund-detail div.bass-heading-B01 ul.bass-notelist-A02, #tdam-tmpl-fund-detail div.bass-heading-B01 ul.bass-notelist-A02 li {
+    height: auto;
+    font-size: 100%
+}
+
+#tdam-tmpl-fund-detail div.bass-heading-B01 ul.bass-notelist-A02 {
+    position: absolute;
+    z-index: 2;
+    right: 40px;
+    top: 17px
+}
+
+#tdam-tmpl-fund-detail div.bass-heading-B01 ul.bass-notelist-A02 li {
+    color: #d70c18
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 {
+    margin-top: 0.67em
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 div.bass-multicol-column {
+    margin-right: 17px
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-tabView-A01 {
+    width: 445px
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-tabView-A01 div.bajl-tabview-pane {
+    padding-top: 4px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    height: 340px;
+    border-bottom: none
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-tabView-A01 div.tdam-tabview-nonetline {
+    height: 235px;
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-tabView-A01 div.bajl-tabview-pane ul, #tdam-tmpl-fund-detail #article-01 div.bass-tabView-A01 div.bajl-tabview-pane ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 100%
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-tabView-A01 div.bajl-tabview-pane ul li {
+    margin-top: 8px;
+    text-align: center
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-tabView-A01 div.bajl-tabview-pane ul li img {
+    vertical-align: top
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 dl {
+    display: block;
+    margin: 0;
+    padding: 13px 12px 11px;
+    color: #717171;
+    background: white;
+    border-bottom: 1px solid #c7c7c7;
+    *zoom: 1
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 dl:after {
+    clear: both;
+    display: block;
+    content: ""
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 dl dt, #tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 dl dd {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.42
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 dl dt {
+    clear: both;
+    float: left;
+    _display: inline
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 dl dt.tdam-legend-red {
+    color: #d70c18
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 dl dt.tdam-legend-blue {
+    color: #006cb8
+}
+
+#tdam-tmpl-fund-detail #article-01 address.bass-copyright-A01 {
+    margin-top: 1.2em
+}
+
+#tdam-tmpl-fund-detail #article-01 div.bass-multicol-A01 table.bass-table-C01 {
+    width: 214px
+}
+
+#tdam-tmpl-fund-detail div.bass-appendix-B01 {
+    margin-top: 20px
+}
+
+
