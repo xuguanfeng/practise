@@ -20,7 +20,7 @@ angular.module('myApp.list', ['ngRoute'])
         // };
         console.log("ready to get funds");
         $http.get('json/funds.json').then(function (response) {
-            var orgFunds = response.data;
+            var orgFunds = response.data;//
             console.log("funds:" + orgFunds.length + "件");
             var index;
             for (index in orgFunds) {
