@@ -75,7 +75,13 @@
                 <dt>基準日:</dt>
                 <dd class="bass-datetime">{{priceDate|dateFormat:"yyyy/MM/dd"}}</dd>
             </dl>
-            <div>絞る: <input ng-model="filterName" type="text" placeholder="ファンドをフィルタ"></div>
+            <div style="width: 100%;">
+                <div style="display: inline; float: left">絞る: <input ng-model="filterName" type="text" placeholder="ファンドをフィルタ"></div>
+                <div style="display: inline; float: right">1ページの件数: <input ng-model="perPage" type="text" size="8" ng-keypress="changePerPageByEnterKey($event)">
+                    <button ng-click="changePerPage()">go</button>
+                </div>
+                <!--<div>{{perPage}}</div>-->
+            </div>
             <div class="bass-heading-B01" id="article-100">
                 <table class="bass-table-A01">
                     <colgroup>
@@ -90,9 +96,10 @@
                     <thead>
                     <tr>
                         <th ng-click="col='fNm';desc = !desc;" class="bass-pseudo-first-child">ファンド名</th>
-                        <th ng-click="col='expressName';desc = !desc;"  class="bass-table-numcell">日本経済新聞<br>掲載名</th>
+                        <th ng-click="col='expressName';desc = !desc;" class="bass-table-numcell">日本経済新聞<br>掲載名</th>
                         <th ng-click="col='prc';desc = !desc;" class="bass-table-numcell">基準価額<br>(円)</th>
-                        <th ng-click="col='prcChg';desc = !desc;" class="bass-table-numcell bass-table-focuscell"><em>前日比(円)<br>(前日比率)</em></th>
+                        <th ng-click="col='prcChg';desc = !desc;" class="bass-table-numcell bass-table-focuscell"><em>前日比(円)<br>(前日比率)</em>
+                        </th>
                         <th ng-click="col='lstRtrnSi';desc = !desc;" class="bass-table-numcell">純資産<br>(百万円)</th>
                         <th ng-click="col='prfDist';desc = !desc;" class="bass-table-numcell">直近<br>分配金<br>(円)</th>
                         <th ng-click="col='trdDt';desc = !desc;" class="bass-table-numcell">直近決算日</th>

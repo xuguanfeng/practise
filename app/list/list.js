@@ -11,7 +11,9 @@ angular.module('myApp.list', ['ngRoute'])
 
     //前两个参数'$scope', '$http'是为了明确指定依赖的名字
     .controller('listCtrl', ['$scope', '$http', function ($scope, $http) {
-        var filterName="";
+        var filterName = "";
+        var pageStart = 1, perPage = -1;
+        var allFunds;
         $scope.priceDate = new Date();
         // var fnc = function getSettlement(url) {
         //     $http.get(url).then(function (response) {
@@ -39,9 +41,20 @@ angular.module('myApp.list', ['ngRoute'])
                 // orgFunds[index].prfDist = settlement[0].prfDist
 
             }
+            allFunds = orgFunds;
             $scope.funds = orgFunds;
 
         });
+
+        $scope.changePerPage = function () {
+            // var tmp = allFunds.slice(pageStart,pageStart*$scope.perPage+1);
+            $scope.funds = $scope.perPage > 0 ? allFunds.slice(pageStart, pageStart * $scope.perPage + 1) : allFunds;
+        }
+        $scope.changePerPageByEnterKey = function (ev) {
+            if (ev.keyCode == 13) {
+                $scope.changePerPage();
+            }
+        }
 
     }]);
 
