@@ -8,6 +8,7 @@ angular.module('myApp', [
     'myApp.list',
     'myApp.detail',
     'commonFilter',
+    'service.fund',
     'myApp.version'
 ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
     $locationProvider.hashPrefix('!');
