@@ -17,7 +17,7 @@ describe('filter test', function () {
         expect(areaNmFilter(0)).toEqual('国内');
         expect(areaNmFilter(1)).toEqual('グローバル');
         expect(areaNmFilter("0")).toEqual('国内');
-        expect(areaNmFilter("1")).toEqual('グローバル');
+        expect(areaNmFilter("1")).toBe('グローバル');
     }));
 
     it('0：追加型投信，その他：日々決算型投信', inject(function (tpNmFilter) {
