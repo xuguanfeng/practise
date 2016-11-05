@@ -8,10 +8,11 @@ angular.module('myApp.list', ['ngRoute'])
             controller: 'listCtrl'
         });
     }])
-    .controller('listCtrl', ['$scope', 'FundService', function ($scope, FundService) {
+    //前两个参数'$scope', 'FundService'是为了明确指定依赖的名字
+    .controller('listCtrl', ['$scope', 'FundListService', function ($scope, FundListService) {
         var filterName = "";
         var pageStart = 1, perPage = -1;
-        var allFunds = [];
+        // var allFunds = [];
         $scope.priceDate = new Date();
         // var fnc = function getSettlement(url) {
         //     $http.get(url).then(function (response) {
@@ -21,8 +22,12 @@ angular.module('myApp.list', ['ngRoute'])
         console.log("ready to get funds");
         // $scope.allFunds = FundService.getList();
         // var fs = new FundService();
-        FundService.;
-        var tmp =1;
+        // $scope.allFunds = [];
+        FundListService($scope);
+        console.log("get funds Done");
+        // $scope.funds = $scope.allFunds;
+
+        // console.log("got funds: " + $scope.funds.length);
         // $scope.funds = $scope.allFunds;
 
         // $http.get('json/funds.json').then(function (response) {
@@ -52,7 +57,7 @@ angular.module('myApp.list', ['ngRoute'])
 
         $scope.changePerPage = function () {
             // var tmp = allFunds.slice(pageStart,pageStart*$scope.perPage+1);
-            $scope.funds = $scope.perPage > 0 ? allFunds.slice(pageStart, pageStart * $scope.perPage + 1) : allFunds;
+            $scope.funds = $scope.perPage > 0 ? $scope.allFunds.slice(pageStart, pageStart * $scope.perPage + 1) : $scope.allFunds;
         }
         $scope.changePerPageByEnterKey = function (ev) {
             if (ev.keyCode == 13) {
