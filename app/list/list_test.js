@@ -34,7 +34,7 @@ describe('listCtrl test', function () {
         expect($scope.funds.length).toEqual(3);
         expect($scope.allFunds.length).toEqual(3);
         expect($scope.pageStart).toEqual(1);
-        expect($scope.perPage).toEqual(-1);
+        expect($scope.perPage).toEqual("");
     });
 
     it('changePerPage() テスト', function () {

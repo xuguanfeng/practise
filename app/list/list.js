@@ -2,15 +2,10 @@
 
 angular.module('myApp.list', ['ngRoute'])
 
-    .config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/list', {
-            templateUrl: 'list/list.template.html',
-            controller: 'listCtrl'
-        });
-    }])
     //Denpendency名は引数'$scope', 'FundService'で明確に指定する必要、そうしないと、コード圧縮時にエラーになる
     .controller('listCtrl', ['$scope', 'FundListService', function ($scope, FundListService) {
-        $scope.pageStart = 1, $scope.perPage = -1;
+        $scope.pageStart = 1;
+        $scope.perPage = "";
         $scope.priceDate = new Date();
         console.log("ready to get funds");
         //FundListのデータ取得サービスを呼び出す、データは$scopeにセット

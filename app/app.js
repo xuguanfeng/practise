@@ -13,5 +13,14 @@ angular.module('myApp', [
 ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
     $locationProvider.hashPrefix('!');
 
+    $routeProvider
+        .when('/list', {
+            templateUrl: 'list/list.template.html',
+            controller: 'listCtrl'
+        })
+        .when('/detail/:id', {
+            templateUrl: 'detail/detail.template.html',
+            controller: 'detailCtrl'
+        });
     $routeProvider.otherwise({redirectTo: '/view1'});
 }]);

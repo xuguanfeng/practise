@@ -1,7 +1,7 @@
 'use strict';
 
 describe('fund.service test', function () {
-    var $scope, $rootScope, $httpBackend, createService;
+    var $scope, $rootScope, $httpBackend, createListService;
     var $FundListService;
 
     // Load the module that contains the `Phone` service before each test
@@ -14,7 +14,7 @@ describe('fund.service test', function () {
         $scope = $rootScope.$new();
         //Serviceの宣言に参照し、Service名,httpBackendは引き数とする、myModule.factory('FundListService', ['$http', function (http) {
         $FundListService = $injector.get('FundListService', $httpBackend);
-        createService = function () {
+        createListService = function () {
             //Serviceのreturn function(呼び出し)を参照し、$scopeは引数として渡す、return function ($scope) {
             return $FundListService($scope);
         };
@@ -35,9 +35,9 @@ describe('fund.service test', function () {
             {name: 'Fund Z'}
         ];
         //$httpのget json/funds.jsonの場合はResponseをダミーデータで置き換える
-        $httpBackend.expectGET('json/funds.json').respond(funds);
+        $httpBackend.whenGET('json/funds.json').respond(funds);
         // FundListService($scope);
-        createService();
+        createListService();
         $scope.$apply(function () {
             // $scope.runTest();
         });

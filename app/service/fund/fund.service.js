@@ -12,7 +12,6 @@
 
 var myModule = angular.module('service.fund', []);
 myModule.factory('FundListService', ['$http', function (http) {
-    var fundList = [];
     return function ($scope) {
         http.get('json/funds.json').then(function (response) {
             $scope.allFunds = response.data;
@@ -20,12 +19,5 @@ myModule.factory('FundListService', ['$http', function (http) {
         });
     };
 }]);
-myModule.factory('FundSettlementService', ['$http', function (http) {
-    var fundList = [];
-    return function ($scope) {
-        $http.get('json/' + fundCd + '-settlement.json').then(function (response) {
-            $scope.settlement = response.data;
-        });
-    };
-}]);
+
 
