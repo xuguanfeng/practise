@@ -1,0 +1,41 @@
+AngularJS1 安装手顺
+http://www.angularjs.cn/A00g
+
+1.NodeJSの下载和安装
+https://nodejs.org/en/
+然后把node可执行程序路径添加到系统环境变量PATH中，
+完成后在命令行中运行一下命令可以查看是否安装成功
+node -v
+
+2Git下载，安装
+https://git-scm.com/
+
+
+	直接下载教程项目的压缩包
+	https://github.com/angular/angular-phonecat
+	解压
+	例：D:\i-port\AngularJS1\angular-phonecat
+	或者（推荐）
+	git clone git://github.com/angular/angular-phonecat.git
+
+☆npm的指令，参见根目录下的package.json	
+
+通过GIT的CMD，cd至该目录
+npm start
+*会通过Git自动安装bower
+
+*也可以下载Seed项目，参见下面的URL
+https://github.com/angular/angular-seed
+
+
+单测
+	CD至项目根目录，运行下面的指令，会让karma动态监控文件，并执行测试
+	npm test
+	karma的配置参照根目录下的karma.conf.js，files：里面用通配符把source文件和测试文件都导入了，并导入了angularjs的测试用核心js
+	
+End-to-End Testing
+	npm run protractor
+
+npm的代理设置方法：
+npm config set proxy http://xuguanfeng:omron99@192.168.200.15:6437
+npm confit set https-proxy http://xuguanfeng:omron99@192.168.200.15:6437
