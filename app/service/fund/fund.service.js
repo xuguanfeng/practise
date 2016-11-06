@@ -17,7 +17,6 @@ myModule.factory('FundListService', ['$http', function (http) {
         http.get('json/funds.json').then(function (response) {
             $scope.allFunds = response.data;
             $scope.funds = response.data;
-            var tmp =1;
         });
     };
 }]);

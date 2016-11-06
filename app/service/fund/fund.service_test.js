@@ -1,44 +1,53 @@
 'use strict';
 
-describe('fund.service test', function() {
-    var $httpBackend;
-    var FundListService;
-    var $scope;
-    var funds = [
-        {name: 'Fund X'},
-        {name: 'Fund Y'},
-        {name: 'Fund Z'}
-    ];
-
-    // Add a custom equality tester before each test
-    beforeEach(function() {
-        jasmine.addCustomEqualityTester(angular.equals);
-    });
+describe('fund.service test', function () {
+    var $scope, $rootScope, $httpBackend, createService;
+    var $FundListService;
 
     // Load the module that contains the `Phone` service before each test
     beforeEach(module('service.fund'));
-
-    // Instantiate the service and "train" `$httpBackend` before each test
-    beforeEach(inject(function(_$httpBackend_, _FundListService_) {
-        $httpBackend = _$httpBackend_;
-        $httpBackend.expectGET('json/funds.json').respond(funds);
-
-        FundListService = _FundListService_;
+    // beforeEach(module('service.fund', ['ngMock']));
+    // angular.module('service.fund', ['ngMock']);
+    beforeEach(inject(function ($injector) {
+        $httpBackend = $injector.get('$httpBackend');
+        $rootScope = $injector.get('$rootScope');
+        $scope = $rootScope.$new();
+        //Serviceの宣言に参照し、Service名,httpBackendは引き数とする、myModule.factory('FundListService', ['$http', function (http) {
+        $FundListService = $injector.get('FundListService', $httpBackend);
+        createService = function () {
+            //Serviceのreturn function(呼び出し)を参照し、$scopeは引数として渡す、return function ($scope) {
+            return $FundListService($scope);
+        };
     }));
+
 
     // Verify that there are no outstanding expectations or requests after each test
     afterEach(function () {
         $httpBackend.verifyNoOutstandingExpectation();
         $httpBackend.verifyNoOutstandingRequest();
     });
-
-    it('should fetch the funds data from `json/funds.json`', function() {
-        FundListService($scope);
-
-        expect($scope.funds.length).toEqual(1);
-
+    //
+    it('FundListService Test `json/funds.json`', function () {
+        //テスト用のダミーデータ
+        var funds = [
+            {name: 'Fund X'},
+            {name: 'Fund Y'},
+            {name: 'Fund Z'}
+        ];
+        //$httpのget json/funds.jsonの場合はResponseをダミーデータで置き換える
+        $httpBackend.expectGET('json/funds.json').respond(funds);
+        // FundListService($scope);
+        createService();
+        $scope.$apply(function () {
+            // $scope.runTest();
+        });
         $httpBackend.flush();
+
+        //ダミーデータは$scopeにセットしたかをテスト
         expect($scope.funds).toEqual(funds);
+        expect($scope.allFunds).toEqual(funds);
+
+        // expect($scope.funds).toEqual(funds);
     });
 
 });
