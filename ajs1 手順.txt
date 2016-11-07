@@ -39,3 +39,10 @@ End-to-End Testing
 npm的代理设置方法：
 npm config set proxy http://xuguanfeng:omron99@192.168.200.15:6437
 npm confit set https-proxy http://xuguanfeng:omron99@192.168.200.15:6437
+
+git的代理设置方法：
+git config --global http.proxy http://xuguanfeng:omron99@192.168.200.15:6437
+
+Angularjs内使用highcharts
+	主页：https://github.com/pablojim/highcharts-ng
+	

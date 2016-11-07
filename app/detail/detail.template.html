@@ -157,32 +157,17 @@
                     </ul>
 
                     <!-- /bass-multicol-column -->
-                    <div id="highStockContainer" style="min-width:400px;height:400px"></div>
-                    <script>
-                        $(function () {
-                            $.getJSON('json/chart/{{fund}}-D-chart.json', function (data) {
-                                // Create the chart
-                                $('#highStockContainer').highcharts('StockChart', {
-                                    rangeSelector : {
-                                        selected : 1
-                                    },
-                                    title : {
-                                        text : 'AAPL Stock Price'
-                                    },
-                                    series : [{
-                                        name : 'AAPL',
-                                        data : data,
-                                        tooltip: {
-                                            valueDecimals: 2
-                                        }
-                                    }]
-                                });
-                            });
-                        });
-                    </script>
+                    <!--<div id="highStockContainer" style="min-width:400px;height:400px"></div>-->
+                    <!--<script src="detail/detail-chart.js"></script>-->
+                    <div >
+                        <!--<highchart title="charts.title" series="charts.series" options="charts.options">-->
+                        <!--</highchart>-->
+                        <highchart id="chart1" config="chartConfig"></highchart>
+                    </div>
+
                 </div>
                 <!-- /bass-multicol-A01 -->
             </div>
 
-<!--</body>-->
-<!--</html>-->
+            <!--</body>-->
+            <!--</html>-->
