@@ -50,4 +50,7 @@ Angularjs内使用highcharts
 
 用TypeScript来开发AngularJs
 https://msdn.microsoft.com/zh-cn/magazine/dn745863.aspx
-或者用Atom安装插件来实现，需要比较
+或者用Atom安装插件来实现
+https://atom.io/
+https://atom.io/packages/atom-typescript
+具体那个好用需要比较
