@@ -28,6 +28,8 @@ npm start
 https://github.com/angular/angular-seed
 
 
+
+
 单测
 	CD至项目根目录，运行下面的指令，会让karma动态监控文件，并执行测试
 	npm test
@@ -45,4 +47,7 @@ git config --global http.proxy http://xuguanfeng:omron99@192.168.200.15:6437
 
 Angularjs内使用highcharts
 	主页：https://github.com/pablojim/highcharts-ng
-	
+
+用TypeScript来开发AngularJs
+https://msdn.microsoft.com/zh-cn/magazine/dn745863.aspx
+或者用Atom安装插件来实现，需要比较
