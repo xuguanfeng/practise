@@ -73,6 +73,15 @@ Angularjs内使用highcharts
 //https://atom.io/packages/atom-typescript
 //具体那个好用需要比较
 
-VSC安装tslint的Extension，用来检测ts的语法不规范的地方
+VSC的推荐Extension
+tslint用来检测ts的语法不规范的地方
+vscode-icon，标记文件icon
+html snippet
+angularjs 1.x
+aessoft-class-autocomplete
+HTML CSS Support
+Angular 1 JavaScript and TypeScript Snippets 
+
+
 spreadjs试用版URL
 http://www.gcpowertools.com.cn/products/redirect.aspx?pd=57&m=xuguanfeng%40hyron.com&u=73262
