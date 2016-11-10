@@ -52,6 +52,8 @@ Angularjs内使用highcharts
 	https://msdn.microsoft.com/zh-cn/magazine/dn745863.aspx
 安装 typescript的编译器
 	npm insall -g typescript
+安装typings来获取.d.ts文件
+	npm install -g typings
 配置VSC的task
 	https://code.visualstudio.com/docs/languages/typescript
 在WorkSpace的根目录下创建tsconfig.json
@@ -71,9 +73,6 @@ Angularjs内使用highcharts
 //https://atom.io/packages/atom-typescript
 //具体那个好用需要比较
 
-
+VSC安装tslint的Extension，用来检测ts的语法不规范的地方
 spreadjs试用版URL
-
-
-http://www.gcpowertools.com.cn/products/redirect.aspx?pd=57&m=xuguanfeng%40hyron.com&u=73262
 http://www.gcpowertools.com.cn/products/redirect.aspx?pd=57&m=xuguanfeng%40hyron.com&u=73262
