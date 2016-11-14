@@ -85,3 +85,36 @@ Angular 1 JavaScript and TypeScript Snippets
 
 spreadjs试用版URL
 http://www.gcpowertools.com.cn/products/redirect.aspx?pd=57&m=xuguanfeng%40hyron.com&u=73262
+
+Gulp手顺  参考URL   https://www.npmjs.com/package/gulp-typescript
+0全局安装gulp
+ npm install -g gulp
+ 会在nodejs的全局node_modules下取得gulp
+ /usr/local/bin/gulp -> /usr/local/lib/node_modules/gulp/bin/gulp.js
+ gulp -v	确认版本
+1在工程根目录输入命令 npm install gulp
+ 会在node_modules目录下建立gulp文件夹
+ 或者把已下载好的该文件夹直接copy过去
+2 Install gulp-typescript & TypeScript  如果TypeScript已经安装可以略过 
+ npm install gulp-typescript，会在node_modules目录下建立gulp-typescript文件夹
+3在项目根目录下建立gulpfile.js，内容如下
+var gulp = require('gulp');
+var ts = require('gulp-typescript');
+ 
+gulp.task('default', function () {
+    return gulp.src('src/**/*.ts')
+        .pipe(ts({
+            noImplicitAny: true,
+            out: 'output.js'
+        }))
+        .pipe(gulp.dest('built/local'));
+});
+gulp只有四个API： task，watch，src，和 dest
+
+task这个API用来创建任务，在命令行下可以输入 gulp test 来执行test的任务。
+watch这个API用来监听任务。
+src这个API设置需要处理的文件的路径，可以是多个文件以数组的形式[main.scss, vender.scss]，也可以是正则表达式/**/*.scss。
+dest这个API设置生成文件的路径，一个任务可以有多个生成路径，一个可以输出未压缩的版本，另一个可以输出压缩后的版本。
+
+
+
