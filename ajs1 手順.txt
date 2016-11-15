@@ -116,9 +116,15 @@ watch这个API用来监听任务。
 src这个API设置需要处理的文件的路径，可以是多个文件以数组的形式[main.scss, vender.scss]，也可以是正则表达式/**/*.scss。
 dest这个API设置生成文件的路径，一个任务可以有多个生成路径，一个可以输出未压缩的版本，另一个可以输出压缩后的版本。
 
-
+AngularJS用的是UI BootStrap
+http://angular-ui.github.io/bootstrap/
+中文的建议教程 http://ourjs.com/detail/54e18c51232227083e000034
 关于网页的UI组件，参见以下网站
 http://www.bootcss.com/
-
+Angular专用的bootstrap： http://angular-ui.github.io/bootstrap/#/getting_started
+按钮相关 http://www.bootcss.com/p/buttons/
+Responsive 插件，自动响应屏幕大小   http://www.bootcss.com/p/responsive-nav.js/
+各种控件  http://www.bootcss.com/p/flat-ui/
+可视化布局 http://www.bootcss.com/p/layoutit/
 
 
