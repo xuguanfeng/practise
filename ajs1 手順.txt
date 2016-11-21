@@ -127,4 +127,8 @@ Responsive 插件，自动响应屏幕大小   http://www.bootcss.com/p/responsi
 各种控件  http://www.bootcss.com/p/flat-ui/
 可视化布局 http://www.bootcss.com/p/layoutit/
 
+JSON整形
+var json=JSON.stringify(jsonStr);
+json=JSON.parse(json)
+
 
