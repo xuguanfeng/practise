@@ -1,0 +1,48 @@
+.component('bigChartComponent', {
+        templateUrl: 'managerReport/bigChart.template.html',
+        bindings: {
+            resolve: '<',//<はinput,修正不可の意味
+            close: '&',//&は戻り値の意味
+            dismiss: '&'
+        },
+        controller: [function () {
+            let $ctrl = this;
+            $ctrl.$onInit = function () {
+                //親画面からのパラメータ
+                // $ctrl.params = $ctrl.resolve.params;
+                $ctrl.chartConfig=$ctrl.resolve.params.chartConfig;
+                $ctrl.bigChartTitle=$ctrl.resolve.params.bigChartTitle;
+                $ctrl.chartConfig.size = {
+                    width: 680,
+                    height: 400
+                }
+                //console.log($ctrl.params);
+                //取得したデータ
+            };
+        }]
+    });
+    
+     let modalInstance = $uibModal.open({
+                animation: true,　//子画面の表示動画は有効
+                backdrop: true, //閉じるまでは親画面操作不可
+                keyboard: true, //ESCキーは有効
+                component: 'bigChartComponent',
+                windowClass: 'center-modal',
+                size: "md",
+                //小窓に渡すパラメータ
+                resolve: {
+                    params: () => {
+                        return {
+                            "chartConfig": chartConfig,
+                            "bigChartTitle": bigChartTitle
+                        };
+                    }
+                }
+            });
+
+            // console.log(modalInstance);
+
+            modalInstance.result.then(() => {
+            }, (value: string) => {
+                console.log('modal dismissed at: ' + value + new Date());
+            });
