@@ -1,0 +1,447 @@
+{
+   "checksum": "7442545582b0619de6833402493ecd66",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13123126753451267",
+               "id": "8",
+               "name": "DEVNET",
+               "type": "url",
+               "url": "http://qmsrv041.nndn.nri.co.jp/Top/Aa/fap0000.htm"
+            }, {
+               "date_added": "13123126753451267",
+               "id": "9",
+               "name": "NRI Group Security Portal",
+               "type": "url",
+               "url": "http://nrigallweb.wwws.nri.co.jp/security/"
+            }, {
+               "date_added": "13123157449579137",
+               "id": "10",
+               "name": "PROCENTER",
+               "type": "url",
+               "url": "http://qmsrv041.nndn.nri.co.jp/procenter/amigo/frame.jsp"
+            } ],
+            "date_added": "13123555855232569",
+            "date_modified": "0",
+            "id": "7",
+            "name": "从 IE 中导入",
+            "type": "folder"
+         }, {
+            "date_added": "13123143648000000",
+            "id": "13",
+            "name": "Google",
+            "type": "url",
+            "url": "https://www.google.co.jp/?gws_rd=ssl"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13123556046599665",
+                  "id": "27",
+                  "name": "SpreadJS マニュアル",
+                  "type": "url",
+                  "url": "http://wijmo.c1.grapecity.com/docs/SpreadHClientUG/webframe.html#welcome.html"
+               }, {
+                  "date_added": "13124885301724267",
+                  "id": "74",
+                  "name": "Spread.Views Demo | Grapecity",
+                  "type": "url",
+                  "url": "http://spread.grapecity.com/Demos/JS/ViewsDemo/#/demos/Introduction"
+               }, {
+                  "date_added": "13124885321554655",
+                  "id": "75",
+                  "name": "SpreadJS 9J",
+                  "type": "url",
+                  "url": "http://docs.grapecity.com/help/spread-js-9/#modules.html"
+               }, {
+                  "date_added": "13123556068910406",
+                  "id": "28",
+                  "name": "SpredJS AngularJS Directive Gallery",
+                  "type": "url",
+                  "url": "http://spread.grapecity.com/Demos/JS/AngularJSSample/AngularExplorer/#/"
+               }, {
+                  "date_added": "13125142002257542",
+                  "id": "103",
+                  "name": "SpreadJS 9J - API ドキュメンテーション",
+                  "type": "url",
+                  "url": "http://docs.grapecity.com/help/spread-js-9/#API%20Documentation.html"
+               }, {
+                  "date_added": "13125656490954921",
+                  "id": "109",
+                  "name": "SpreadJS - チュートリアルデモ | グレープシティ株式会社",
+                  "type": "url",
+                  "url": "http://localhost:8000/samples/TutorialSample/index.html#/samples"
+               } ],
+               "date_added": "13124885339881854",
+               "date_modified": "13125977629922801",
+               "id": "76",
+               "name": "SpredJS",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13123822029621093",
+                  "id": "43",
+                  "name": "数据提示框（Tooltip） | Highcharts中文教程",
+                  "type": "url",
+                  "url": "http://v1.hcharts.cn/docs/index.php?doc=basic-tooltip"
+               }, {
+                  "date_added": "13123562904503259",
+                  "id": "30",
+                  "name": "Interactive JavaScript charts for your webpage | Highcharts",
+                  "type": "url",
+                  "url": "http://www.highcharts.com/"
+               }, {
+                  "date_added": "13123814959796491",
+                  "id": "42",
+                  "name": "GitHub - pablojim/highcharts-ng: AngularJS directive for Highcharts",
+                  "type": "url",
+                  "url": "https://github.com/pablojim/highcharts-ng"
+               } ],
+               "date_added": "13124885355416404",
+               "date_modified": "13124885532577308",
+               "id": "77",
+               "name": "HighCharts",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13123563893687780",
+                  "id": "31",
+                  "name": "Extensions for Visual Studio family of products | Visual Studio Marketplace",
+                  "type": "url",
+                  "url": "https://marketplace.visualstudio.com/VSCode"
+               } ],
+               "date_added": "13124885392201865",
+               "date_modified": "13124885419730249",
+               "id": "78",
+               "name": "VisualStudioCode",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13123582358805012",
+                  "id": "34",
+                  "name": "AngularUI for AngularJS",
+                  "type": "url",
+                  "url": "https://angular-ui.github.io/"
+               }, {
+                  "date_added": "13123730669542906",
+                  "id": "37",
+                  "name": "Angular directives for Bootstrap",
+                  "type": "url",
+                  "url": "https://angular-ui.github.io/bootstrap/"
+               }, {
+                  "date_added": "13123747450809992",
+                  "id": "39",
+                  "name": "Bootstrap 中文文档",
+                  "type": "url",
+                  "url": "http://v3.bootcss.com/"
+               }, {
+                  "date_added": "13123582353325333",
+                  "id": "33",
+                  "name": "UI Grid: 405 Exporting All Data With External Pagination",
+                  "type": "url",
+                  "url": "http://ui-grid.info/docs/#/tutorial/405_exporting_all_data_complex"
+               }, {
+                  "date_added": "13123847398582439",
+                  "id": "44",
+                  "name": "About - Materialize",
+                  "type": "url",
+                  "url": "http://materializecss.com/about.html"
+               }, {
+                  "date_added": "13126669632651244",
+                  "id": "121",
+                  "name": "AngularStrap - AngularJS 1.2+ native directives for Twitter Bootstrap 3.",
+                  "type": "url",
+                  "url": "http://mgcrea.github.io/angular-strap/#/tooltips"
+               }, {
+                  "date_added": "13126669653762057",
+                  "id": "122",
+                  "name": "AngularMotion - Fancy CSS3 animations for AngularJS 1.2+.",
+                  "type": "url",
+                  "url": "http://mgcrea.github.io/angular-motion/"
+               } ],
+               "date_added": "13124885402497585",
+               "date_modified": "13127272098325687",
+               "id": "79",
+               "name": "UI",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13123556040375643",
+                  "id": "26",
+                  "name": "AngularJS: API: $http",
+                  "type": "url",
+                  "url": "https://docs.angularjs.org/api/ng/service/$http"
+               }, {
+                  "date_added": "13124421694145991",
+                  "id": "57",
+                  "name": "AngularJS开发指南 中文教程",
+                  "type": "url",
+                  "url": "http://www.360doc.com/content/14/0414/15/14416931_368816305.shtml"
+               }, {
+                  "date_added": "13124424591549615",
+                  "id": "58",
+                  "name": "Angular w3schools.com",
+                  "type": "url",
+                  "url": "http://www.w3schools.com/angular/ng_ng-cloak.asp"
+               }, {
+                  "date_added": "13124511297265633",
+                  "id": "61",
+                  "name": "AngularJS学习笔记",
+                  "type": "url",
+                  "url": "https://checkcheckzz.gitbooks.io/angularjs-learning-notes/content/chapter11/11-2.html"
+               }, {
+                  "date_added": "13124535199602393",
+                  "id": "66",
+                  "name": "彻底弄懂AngularJS中的transclusion - 用Angular开发web应用 - 前端乱炖",
+                  "type": "url",
+                  "url": "http://www.html-js.com/article/Using-Angular-to-develop-web-application-completely-understand-AngularJS-transclusion"
+               }, {
+                  "date_added": "13124856281859730",
+                  "id": "73",
+                  "name": "AngularJS: Developer Guide",
+                  "type": "url",
+                  "url": "https://docs.angularjs.org/guide/directive"
+               }, {
+                  "date_added": "13124286784814904",
+                  "id": "54",
+                  "name": "浅谈requirejs + angular + angular-route - 拂晓风起-Kenko - 博客园",
+                  "type": "url",
+                  "url": "http://www.cnblogs.com/kenkofox/p/4643760.html"
+               }, {
+                  "date_added": "13124967890457444",
+                  "id": "92",
+                  "name": "How to Use Angular 1.5’s Component Method | Scotch",
+                  "type": "url",
+                  "url": "https://scotch.io/tutorials/how-to-use-angular-1-5s-component-method"
+               }, {
+                  "date_added": "13124979109387750",
+                  "id": "96",
+                  "name": "AngularJS 的表单验证 - 技术翻译 - 开源中国社区",
+                  "type": "url",
+                  "url": "https://www.oschina.net/translate/angularjs-form-validation"
+               }, {
+                  "date_added": "13125033835896991",
+                  "id": "100",
+                  "name": "AngularJS: Developer Guide: Components",
+                  "type": "url",
+                  "url": "https://docs.angularjs.org/guide/component"
+               }, {
+                  "date_added": "13125462277530728",
+                  "id": "106",
+                  "name": "理解$watch ，$apply 和 $digest --- 理解数据绑定过程 ",
+                  "type": "url",
+                  "url": "http://www.angularjs.cn/A0a6"
+               }, {
+                  "date_added": "13125978502943046",
+                  "id": "113",
+                  "name": "AngularJSでのバリデーションの基本 | tsuchikazu blog",
+                  "type": "url",
+                  "url": "https://tsuchikazu.net/angularjs-validation/"
+               }, {
+                  "children": [  ],
+                  "date_added": "13126354575398256",
+                  "date_modified": "13126354575398256",
+                  "id": "117",
+                  "name": "新建文件夹",
+                  "type": "folder"
+               }, {
+                  "date_added": "13127272098325687",
+                  "id": "125",
+                  "name": "ocLazyLoad",
+                  "type": "url",
+                  "url": "https://oclazyload.readme.io/docs/with-your-router"
+               } ],
+               "date_added": "13124885425017677",
+               "date_modified": "13127272109083992",
+               "id": "80",
+               "name": "AngularJS",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13124161158106778",
+                  "id": "47",
+                  "name": "模块 · TypeScript中文网",
+                  "type": "url",
+                  "url": "http://tslang.cn/docs/handbook/modules.html"
+               }, {
+                  "date_added": "13123578314193200",
+                  "id": "32",
+                  "name": "tsconfig.json · TypeScript",
+                  "type": "url",
+                  "url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html"
+               } ],
+               "date_added": "13124885443800886",
+               "date_modified": "13124885521105763",
+               "id": "81",
+               "name": "TypeScript",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13124252471986435",
+                  "id": "50",
+                  "name": "脚本之家在线工具",
+                  "type": "url",
+                  "url": "http://tools.jb51.net/"
+               }, {
+                  "date_added": "13124252640872602",
+                  "id": "51",
+                  "name": "Moment.js | Docs",
+                  "type": "url",
+                  "url": "http://momentjs.com/docs/"
+               } ],
+               "date_added": "13124885453568626",
+               "date_modified": "13124885535992999",
+               "id": "82",
+               "name": "Tool",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13124513776653927",
+                  "id": "62",
+                  "name": "Unit Testing with $q Promises in AngularJS",
+                  "type": "url",
+                  "url": "http://www.bradoncode.com/blog/2015/07/13/unit-test-promises-angualrjs-q/"
+               }, {
+                  "date_added": "13124514018934702",
+                  "id": "63",
+                  "name": "Testing Promises with Jasmine - Provide and Spy",
+                  "type": "url",
+                  "url": "http://ng-learn.org/2014/08/Testing_Promises_with_Jasmine_Provide_Spy/"
+               }, {
+                  "date_added": "13124944580620580",
+                  "id": "87",
+                  "name": "Full-Spectrum Testing with AngularJS and Karma - yearofmoo.com",
+                  "type": "url",
+                  "url": "https://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html"
+               } ],
+               "date_added": "13124885470815725",
+               "date_modified": "13124964479733678",
+               "id": "83",
+               "name": "UNITテスト",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13124283974143536",
+                  "id": "53",
+                  "name": "node.jsで環境別設定を行う「node-config」 | 技術記",
+                  "type": "url",
+                  "url": "https://dev.fukata.org/archives/6536"
+               }, {
+                  "date_added": "13124283954200435",
+                  "id": "52",
+                  "name": "Node.js の起動オプション、環境変数、npm start の話 - Block Rockin’ Codes",
+                  "type": "url",
+                  "url": "http://jxck.hatenablog.com/entry/20120410/1334071898"
+               }, {
+                  "date_added": "13124964479733678",
+                  "id": "90",
+                  "name": "《Node.js 入门系列》—— NPM 安装第三方模块常见问题",
+                  "type": "url",
+                  "url": "http://ucdok.com/articles/2013-09-26-npm-install-problems.html"
+               }, {
+                  "date_added": "13125025810979441",
+                  "id": "99",
+                  "name": "Using SpreadJS with AngularJS",
+                  "type": "url",
+                  "url": "http://sphelp.grapecity.com/webhelp/spreadjsweb/angular.html"
+               } ],
+               "date_added": "13124885495343798",
+               "date_modified": "13125033835896991",
+               "id": "84",
+               "name": "NodeJS",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13124966724088886",
+                  "id": "91",
+                  "name": "AngularJS 路由：ng-route 与 ui-router - Harttle Land",
+                  "type": "url",
+                  "url": "http://harttle.com/2015/06/10/angular-route.html"
+               }, {
+                  "date_added": "13124974971760043",
+                  "id": "93",
+                  "name": "Multiple Named Views · angular-ui/ui-router Wiki",
+                  "type": "url",
+                  "url": "https://github.com/angular-ui/ui-router/wiki/Multiple-Named-Views"
+               }, {
+                  "date_added": "13124975837730395",
+                  "id": "95",
+                  "name": "Quick Reference · angular-ui/ui-router Wiki",
+                  "type": "url",
+                  "url": "https://github.com/angular-ui/ui-router/wiki/Quick-Reference#state-1"
+               } ],
+               "date_added": "13124974995960726",
+               "date_modified": "13124979109387750",
+               "id": "94",
+               "name": "ui-Router",
+               "type": "folder"
+            }, {
+               "date_added": "13125977629922801",
+               "id": "112",
+               "name": "JavaScript リファレンス - JavaScript | MDN",
+               "type": "url",
+               "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference"
+            }, {
+               "children": [ {
+                  "date_added": "13126354540717154",
+                  "id": "116",
+                  "name": "Quick start / Methodology / BEM",
+                  "type": "url",
+                  "url": "https://en.bem.info/methodology/quick-start/"
+               } ],
+               "date_added": "13126354575398330",
+               "date_modified": "13126669632651244",
+               "id": "118",
+               "name": "CSS関連",
+               "type": "folder"
+            } ],
+            "date_added": "13123556036175199",
+            "date_modified": "13127357942439798",
+            "id": "25",
+            "name": "i-port開発",
+            "type": "folder"
+         }, {
+            "date_added": "13123556385445798",
+            "id": "29",
+            "name": "i-Port LOGIN(開発)",
+            "type": "url",
+            "url": "https://n-i-port.nomura.co.jp/login/faces/login.jsf"
+         }, {
+            "children": [ {
+               "date_added": "13124789284764607",
+               "id": "70",
+               "name": "一套框架，多种平台 - Angular",
+               "type": "url",
+               "url": "https://angular.cn/"
+            } ],
+            "date_added": "13124789274388432",
+            "date_modified": "13124856281859730",
+            "id": "69",
+            "name": "Angular2",
+            "type": "folder"
+         } ],
+         "date_added": "13123555462200190",
+         "date_modified": "13124789284764607",
+         "id": "1",
+         "name": "书签栏",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13123555462200223",
+         "date_modified": "0",
+         "id": "2",
+         "name": "其他书签",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13123555462200226",
+         "date_modified": "0",
+         "id": "3",
+         "name": "移动设备书签",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
